@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: "Work Sans";
+}
+body {
+  background: #fff;
+}
+.man {
+  width: 100%;
+  height: auto;
+}
+.man .foot {
+  display: flex;
+  justify-content: space-around;
+  background: #74c69d;
+  align-items: center;
+  padding: 10px 0;
+}
+.foot .sa {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+
+.bg {
+  padding-top: 50px;
+  line-height: 22px;
+}
+
+.bg .bg-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: normal;
+  padding-top: 10px;
+}
+
+.bg-2 span {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+  text-align: center;
+}
+.bosh {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bosh b {
+  color: #74c69d;
+  font-size: 17px;
+}
+.asosiy {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding-top: 30px;
+  gap: 50px;
+  text-align: center;
+}
+
+.apple {
+  text-align: center;
+
+  padding: 46px 30px;
+  align-items: flex-start;
+  gap: 10px;
+  width: 275px;
+  height: 475px;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+}
+.sor {
+  text-align: center;
+}
+
+.sor-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 20px;
+}
+.sor-1 n {
+  color: var(--color-dark-50, rgba(33, 37, 41, 0.5));
+  text-align: center;
+}
+.sor-2 {
+  padding-top: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+.sor-2 p {
+  color: var(--color-dark-50, rgba(33, 37, 41, 0.5));
+}
+.lorem {
+  display: flex;
+  padding-top: 40px;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 16px;
+}
+
+.lorem-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.header {
+  padding-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  border: none;
+}
+
+.header button {
+  border: none;
+  background: black;
+  width: 130px;
+  height: 35px;
+  flex-shrink: 0;
+  color: #fff;
+  border-radius: 6px;
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #74c69d;
+  padding: 25px 0px;
+}
+.root .der-1 b {
+  color: aliceblue;
+}
+
+@media (max-width: 570px) {
+  .man {
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+  }
+  .none a {
+    display: none;
+  }
+
+  body .root {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+    gap: 20px;
+    width: 100%;
+  }
+
+  .asosiy .apple {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 380px;
+    height: 500px;
+    font-size: 16px;
+  }
+  .lorem-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding-left: 50px;
+  }
+  .man .foot {
+    width: 700px;
+  }
+  .header button {
+    width: 150px;
+    height: 50px;
+  }
+}

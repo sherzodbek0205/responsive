@@ -1,0 +1,218 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Crimson Text';
+}
+a{
+    text-decoration: none;
+    color: white;
+}button:hover{
+    box-shadow: 2px 2px r;
+}
+button:hover {
+    background-color: #2EE59D;
+    box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+  }
+.header{
+    background: #74C69D; 
+    height: 600px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 80px;
+}
+.tags{
+    margin-right: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    font-weight: 400;
+font-size: 20px;
+}
+.text{
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+margin-left: 80px;
+}
+.textt{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 80px;
+}
+.rek{
+    display: flex;
+align-items: center;
+    flex-direction: column;
+}
+.icons{
+    display: flex;
+    gap: 55px;
+}
+.opala{
+    margin-top: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.brat{
+    margin-top: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.talents{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxes{
+    display: flex;
+gap: 47px;
+}
+.boxes .box{
+    margin-top: 35px;
+    width: 279px;
+    height: 299px; 
+    background: #FFFFFF;
+    box-shadow: 3px 4px 12px 1px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;  
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.box h4{
+    font-weight: 700;
+font-size: 24px;
+
+}
+.box p{
+    margin-top: -20px;
+}
+.box:hover{
+    width: 350px;
+    transition: 3s;
+    height: 350px;
+}
+
+.footer{
+    margin-top: 84px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #74C69D;
+}
+
+
+@media (max-width: 576px) {
+    
+
+    .none{
+        display: none;
+
+    } 
+    .logo img{
+        
+width:95px;
+height: 45px;
+margin-left: -60px;
+    }
+  .rasmmm img{
+    margin-top: 15px !important;
+width: 370px;
+height: 250px;
+  }
+  .header{
+    height: 700px;
+  }
+  .lorem h1{
+    width: 390px;
+    font-size: 30px !important;
+    margin-left: -60px;
+  }
+.welcome{
+    margin-left: -60px;
+}
+.p{
+    margin-left: -60px;
+}
+.p p{
+    line-height: 15px;
+    margin-top: -10px;
+    width: 400px;
+}
+.bt{
+    margin-left: -60px;
+}
+.textt{
+    flex-direction: column-reverse;
+}
+.t3{
+display: block !important;
+}
+.t3 button{
+    background: none;
+    border: none;
+}
+.t3 button:hover{
+    box-shadow: inset 2px 2px black;
+}
+.icons{
+   display: flex;
+   flex-direction: column;
+    
+}
+.opala{
+    flex-direction: column;
+}
+.h{
+    margin-left: 20px;
+}
+.h h1{
+font-size: 25px !important;
+}
+.p{
+   
+}
+.p p{
+   width: 360px;
+}
+.opa img{
+    width: 370px;
+    height: 250px;
+}
+.btt{
+    margin-left: 20px;
+}
+.brat{
+    flex-direction: column-reverse;
+}
+.bratann img{
+    width: 340px;
+    height: 270px;
+}
+.talents{
+    flex-direction: column ;
+}
+.boxes{
+    flex-direction: column;
+}
+.footer{
+   flex-direction: column;
+   align-items: center; 
+}
+.pp{
+    margin-left: 20px;
+}
+.iconss{
+    margin-top: 20px;
+    margin-left: -30px !important;
+}
+}

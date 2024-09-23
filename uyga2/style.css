@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+.man {
+  width: 100%;
+  height: auto;
+}
+.man .foot {
+  display: flex;
+  justify-content: space-around;
+  background: #74c69d;
+  align-items: center;
+  padding: 10px 0;
+}
+.foot .sa {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+}
+a {
+  color: aliceblue;
+  text-decoration: none;
+}
+.iteam {
+  padding-top: 50px;
+  line-height: 22px;
+}
+.iteam .fer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+}
+.iteam .fer-1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.rasm {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  padding-top: 100px;
+  gap: 55px;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  gap: 55px;
+  justify-content: center;
+  align-items: center;
+}
+ .row img {
+  display: flex;
+  flex-wrap: wrap;
+  width: 450px;
+  height: 300px;
+}
+.row-1 img {
+  width: 450px;
+  height: 280px;
+}
+.button {
+  padding-top: 63px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.button button {
+  width: 140px;
+  height: 40px;
+  color: aliceblue;
+  background: #212529;
+  border-radius: 5px;
+}
+
+.root {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #74c69d;
+  padding: 25px 0px;
+}
+.root .der-1 b {
+  color: aliceblue;
+}
+
+@media (max-width: 580px) {
+   .foot{
+    background-image: url(./img/list\ 1.png);
+   }
+   .man {
+    display: flex;
+     flex-direction: column;
+     
+     justify-content: center;
+     align-items: center;
+     
+   }
+  .none a {
+    display: none;
+  }
+  .rasm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: -30px;
+  }
+  .rasm .row img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 250px;
+  }
+  .rasm .row-1 img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 250px;
+  }
+  .man .foot {
+    width: 757px;
+  }
+  .button {
+    margin-top: 30px;
+  }
+  .fer {
+    display: flex;
+    align-items: center;
+    margin-left: 0px;
+    justify-content: center;
+  }
+   
+  .fer-1  {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+  }
+  body .root{
+    display: flex;
+    flex-direction: column;
+    
+    gap: 20px;
+    width: 100%;
+  }
+}
